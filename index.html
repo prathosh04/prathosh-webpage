@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Registration</title>
+    <link rel="stylesheet" href="C:\Users\ELCOT\Desktop\form\styles.css">
+</head>
+<body>
+    <!-- Front Page -->
+    <div class="front-page">
+        <h1 class="register-now">REGISTER NOW</h1>
+    </div>
+
+    <!-- Registration Form Page -->
+    <div class="form-page">
+        <h2 class="form-title">Feet up your Feets</h2>
+        <form id="registration-form">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="middle-name">Middle Name</label>
+            <input type="text" id="middle-name" name="middle-name">
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="college">College Name</label>
+            <select id="college" name="college">
+                <option value="" disabled selected>Select your college</option>
+                <!-- Colleges in Coimbatore -->
+                <option value="KPRIET">KPR Institute of Engineering and Technology</option>
+                <option value="PSG">PSG College of Technology</option>
+                <option value="Amrita">Amrita Vishwa Vidyapeetham</option>
+                <option value="Karunya">Karunya Institute of Technology and Sciences</option>
+                <option value="RVS">RVS College of Engineering and Technology</option>
+                <option value="SNS">SNS College of Technology</option>
+                <option value="CIT">Coimbatore Institute of Technology</option>
+                <option value="SriKrishna">Sri Krishna College of Engineering and Technology</option>
+                <!-- Add more Coimbatore colleges if needed -->
+            </select>
+
+            <label for="district">District</label>
+            <select id="district" name="district">
+                <option value="" disabled selected>Select your district</option>
+                <!-- Tamil Nadu Districts -->
+                <option value="Ariyalur">Ariyalur</option>
+                <option value="Chengalpattu">Chengalpattu</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Cuddalore">Cuddalore</option>
+                <option value="Dharmapuri">Dharmapuri</option>
+                <option value="Dindigul">Dindigul</option>
+                <option value="Erode">Erode</option>
+                <option value="Kallakurichi">Kallakurichi</option>
+                <option value="Kanchipuram">Kanchipuram</option>
+                <option value="Kanniyakumari">Kanniyakumari</option>
+                <option value="Karur">Karur</option>
+                <option value="Krishnagiri">Krishnagiri</option>
+                <option value="Madurai">Madurai</option>
+                <option value="Nagapattinam">Nagapattinam</option>
+                <option value="Namakkal">Namakkal</option>
+                <option value="Nilgiris">Nilgiris</option>
+                <option value="Perambalur">Perambalur</option>
+                <option value="Pudukkottai">Pudukkottai</option>
+                <option value="Ramanathapuram">Ramanathapuram</option>
+                <option value="Ranipet">Ranipet</option>
+                <option value="Salem">Salem</option>
+                <option value="Sivaganga">Sivaganga</option>
+                <option value="Tenkasi">Tenkasi</option>
+                <option value="Thanjavur">Thanjavur</option>
+                <option value="Theni">Theni</option>
+                <option value="Thiruvallur">Thiruvallur</option>
+                <option value="Thiruvarur">Thiruvarur</option>
+                <option value="Thoothukudi">Thoothukudi</option>
+                <option value="Tiruchirappalli">Tiruchirappalli</option>
+                <option value="Tirunelveli">Tirunelveli</option>
+                <option value="Tirupathur">Tirupathur</option>
+                <option value="Tiruppur">Tiruppur</option>
+                <option value="Tiruvannamalai">Tiruvannamalai</option>
+                <option value="Vellore">Vellore</option>
+                <option value="Viluppuram">Viluppuram</option>
+                <option value="Virudhunagar">Virudhunagar</option>
+                <!-- Add more districts if needed -->
+            </select>
+
+            <label for="state">State</label>
+            <select id="state" name="state">
+                <option value="" disabled selected>Select your state</option>
+                <!-- Indian States -->
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="West Bengal">West Bengal</option>
+                <!-- Add more states if needed -->
+            </select>
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="" disabled selected>Select your country</option>
+                <!-- List of Countries -->
+                <option value="India">India</option>
+                <option value="United States">United States</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Japan">Japan</option>
+                <option value="China">China</option>
+                <option value="Brazil">Brazil</option>
+                <option value="South Africa">South Africa</option>
+                <!-- Add more countries if needed -->
+            </select>
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="department">Department</label>
+            <input list="departments" id="department" name="department">
+            <datalist id="departments">
+                <option value="AD"></option>
+                <option value="BME"></option>
+                <option value="CHEM"></option>
+                <option value="MECH"></option>
+                <option value="CIVIL"></option>
+                <option value="MECHATRO"></option>
+                <option value="CSE"></option>
+                <option value="AIML"></option>
+                <option value="CSBS"></option>
+            </datalist>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="dance-category">Dance Category</label>
+            <select id="dance-category" name="dance-category">
+                <option value="folk">Folk</option>
+                <option value="western">Western</option>
+                <option value="hiphop">Hip-Hop</option>
+                <option value="jazz">Jazz</option>
+                <option value="free-style">Free Style</option>
+            </select>
+
+            <label for="solo-group">Performance Type</label>
+            <input list="performance-type" id="solo-group" name="solo-group">
+            <datalist id="performance-type">
+                <option value="Solo"></option>
+                <option value="Group"></option>
+            </datalist>
+
+            <label for="qr-code">Payment QR Code</label>
+            <input type="file" id="qr-code" name="qr-code" accept="image/jpeg" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Thank You Page -->
+    <div class="thank-you-page">
+        <h1>Thank You For Your Valid Registration</h1>
+        <p>LET'S HAVE ENERGETIC VIBES TOGETHER!</p>
+    </div>
+
+    <script src="C:\Users\ELCOT\Desktop\form\scripts.js"></script>
+</body>
+</html>

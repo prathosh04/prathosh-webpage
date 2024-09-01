@@ -1,0 +1,148 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Front Page Styling */
+.front-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://cdn.gencraft.com/prod/user/fa5223a6-567b-4d41-ac71-1dd68d00185f/ec072981-a223-4778-8bcb-976cbc749193/image/image0_0.jpg?Expires=1725284196&Signature=HpkjdggLUyfhtnKt3gTSLoGF8sWIJBf6sS9atkEoFTIhQx8qkyfR9dvfO883qG0V5fOYd~xmS-9oW7LhQv1SilkyHPDeG7JnPu6C0~HEZ8HkBeLcYHn0S2~EjvL7P3hd0jfXHFxUd1Gv6O2aIs7HyaRHnFzXDJi4EWihvm3mhBR22Elf5equV6dTi~F97nwWv-XKz61QGniv0rNpMChoKrZbfe7Ws-CMjklte-PrioglM4d43q6iw3FGjtz5WOAaA~qO~5X4i-abH3A6YLo3vJHJudd7-~rYe~EF61tAkND317GoenqDDuW0RZvsn~4dyrsYpTIChudnUFpoJuhdVA__&Key-Pair-Id=K3RDDB1TZ8BHT8') no-repeat center center/cover;
+}
+
+.front-page h1 {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 3px 3px 5px #000;
+    animation: bounce 1s infinite;
+    cursor: pointer;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Form Page Styling */
+.form-page {
+    display: none;
+    padding: 50px;
+    background: url('https://cdn.gencraft.com/prod/user/fa5223a6-567b-4d41-ac71-1dd68d00185f/ec072981-a223-4778-8bcb-976cbc749193/image/image1_0.jpg?Expires=1725284196&Signature=D4Egoxead5RqJ-6~UFWsWz6Zyu4y~AO-ISMPDGHEUJJgmusCkU5UjzBlKx4Vd5MPOQi19t5i37CMU4cnfwslRdpm6wqn68rg~~tzfTMR7y0nltDPXCZeUAad~xKZQeNyCfiKs0gXjUYlOjLPc1VfptsrjnktYZDUnj9KehV4jGbMsKJJdDJHV0v7KPzZQfWkD9ANFeYDZJ0HrdWhTryL4w~B1xeWFPjPTztUU8OX0RZKAMS4j2TLbBO7zPlA4znkAZFPX6Kvt0QRiRoCRHhDwEmm2kfPCoj3BGDH0RVE5GnUm~c8AQBmBDutwAH~OIkFYFLj9WpwBJuY8BuCgzTOcw__&Key-Pair-Id=K3RDDB1TZ8BHT8') no-repeat center center/cover;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 40px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 4px #000;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+    grid-column: span 2;
+    font-size: 18px;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form select {
+    grid-column: span 2;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form input[type="date"]:focus,
+form select:focus {
+    border-color: #ff9900;
+}
+
+form button {
+    grid-column: span 2;
+    padding: 15px;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ff9900;
+}
+
+/* Thank You Page Styling */
+.thank-you-page {
+    display: none;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px #000;
+    animation: fadeInOut 4s ease-in-out infinite;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.thank-you-page h1 {
+    font-size: 50px;
+}
+
+.thank-you-page p {
+    font-size: 24px;
+}
