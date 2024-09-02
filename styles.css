@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('https://cdn.gencraft.com/prod/user/fa5223a6-567b-4d41-ac71-1dd68d00185f/ec072981-a223-4778-8bcb-976cbc749193/image/image0_0.jpg?Expires=1725284196&Signature=HpkjdggLUyfhtnKt3gTSLoGF8sWIJBf6sS9atkEoFTIhQx8qkyfR9dvfO883qG0V5fOYd~xmS-9oW7LhQv1SilkyHPDeG7JnPu6C0~HEZ8HkBeLcYHn0S2~EjvL7P3hd0jfXHFxUd1Gv6O2aIs7HyaRHnFzXDJi4EWihvm3mhBR22Elf5equV6dTi~F97nwWv-XKz61QGniv0rNpMChoKrZbfe7Ws-CMjklte-PrioglM4d43q6iw3FGjtz5WOAaA~qO~5X4i-abH3A6YLo3vJHJudd7-~rYe~EF61tAkND317GoenqDDuW0RZvsn~4dyrsYpTIChudnUFpoJuhdVA__&Key-Pair-Id=K3RDDB1TZ8BHT8') no-repeat center center/cover;
+    background: url('image0_0 (1).jpg') no-repeat center center/cover;
 }
 
 .front-page h1 {
@@ -37,7 +37,7 @@ body {
 .form-page {
     display: none;
     padding: 50px;
-    background: url('https://cdn.gencraft.com/prod/user/fa5223a6-567b-4d41-ac71-1dd68d00185f/ec072981-a223-4778-8bcb-976cbc749193/image/image1_0.jpg?Expires=1725284196&Signature=D4Egoxead5RqJ-6~UFWsWz6Zyu4y~AO-ISMPDGHEUJJgmusCkU5UjzBlKx4Vd5MPOQi19t5i37CMU4cnfwslRdpm6wqn68rg~~tzfTMR7y0nltDPXCZeUAad~xKZQeNyCfiKs0gXjUYlOjLPc1VfptsrjnktYZDUnj9KehV4jGbMsKJJdDJHV0v7KPzZQfWkD9ANFeYDZJ0HrdWhTryL4w~B1xeWFPjPTztUU8OX0RZKAMS4j2TLbBO7zPlA4znkAZFPX6Kvt0QRiRoCRHhDwEmm2kfPCoj3BGDH0RVE5GnUm~c8AQBmBDutwAH~OIkFYFLj9WpwBJuY8BuCgzTOcw__&Key-Pair-Id=K3RDDB1TZ8BHT8') no-repeat center center/cover;
+    background: url('image1_0(1).jpg') no-repeat center center/cover;
 }
 
 .form-title {
