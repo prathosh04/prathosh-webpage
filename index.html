@@ -164,13 +164,22 @@
             <input type="date" id="dob" name="dob" required>
 
             <label for="dance-category">Dance Category</label>
-            <select id="dance-category" name="dance-category">
-                <option value="folk">Folk</option>
-                <option value="western">Western</option>
-                <option value="hiphop">Hip-Hop</option>
-                <option value="jazz">Jazz</option>
-                <option value="free-style">Free Style</option>
-            </select>
+            <div id="dance-category">
+                <input type="radio" id="folk" name="dance-category" value="folk" required>
+                <label for="folk">Folk</label><br>
+
+                <input type="radio" id="western" name="dance-category" value="western">
+                <label for="western">Western</label><br>
+
+                <input type="radio" id="hiphop" name="dance-category" value="hiphop">
+                <label for="hiphop">Hip-Hop</label><br>
+
+                <input type="radio" id="jazz" name="dance-category" value="jazz">
+                <label for="jazz">Jazz</label><br>
+
+                <input type="radio" id="free-style" name="dance-category" value="free-style">
+                <label for="free-style">Free Style</label><br>
+            </div>
 
             <label for="solo-group">Performance Type</label>
             <input list="performance-type" id="solo-group" name="solo-group">
