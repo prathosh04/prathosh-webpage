@@ -23,6 +23,12 @@ body {
     cursor: pointer;
 }
 
+input
+{
+accent-color:rgb(23, 42, 188);
+mix-blend-mode: multiply;
+}
+
 /* Bounce Animation */
 @keyframes bounce {
     0%, 100% {
